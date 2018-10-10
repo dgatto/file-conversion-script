@@ -7,6 +7,8 @@ The purpose of this script is to solve an issue where conventional text editors 
 save an '.msp' file as a text-only file. This causes errors with LipiDex. This script simply allows the user to find and
 replace any and *all* given instances of a phrase in a file of their choosing, but doesn't save the file as text-only.
 
+NOTE: If you'd rather not use this script, there IS a text editor that allows you to edit the files without complaining about text-only conversion. It's called Atom, you can download it [here](https://atom.io/)!
+
 ## _Installation_
 
 1. Download this repository so you have the script on your computer. You can do that by clicking "Clone or Download" at the top of this page and downloading the ZIP file.
