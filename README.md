@@ -12,7 +12,7 @@ replace any and *all* given instances of a phrase in a file of their choosing, b
 1. Download this repository so you have the script on your computer. You can do that by clicking "Clone or Download" at the top of this page and downloading the ZIP file.
 2. Install Python 3.7+. [here's the link!](https://www.python.org/downloads/)
 3. Install Anaconda 5.3+. This is necessary for installing the Pandas package. [here's another link!](https://www.anaconda.com/download/#windows)
-4. Install the Pandas package for python. This package does a lot of the middleman work for parsing through and modifying text files. [oh boy, more links!]()
+4. Install the Pandas package for python. You should be able to open a Python shell by going to the Start Menu and searching "Python". After the shell opens, type `conda install pandas`. 
 
 Now you should be good to run the script!
 
