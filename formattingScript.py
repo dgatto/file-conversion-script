@@ -58,25 +58,6 @@ def replaceString(replace_input, filedata):
         print('writing file...')
         file.write(filedata)
 
-# "Hides" (really it removes) a given row of data for all instances of it. CANNOT BE UNDONE (so you're not getting that data back),
-# but the script creates a new file, so you won't *really* lose any data
-# def hideRow(row_to_hide):
-# 	with open(input_file, 'r') as input:
-# 		with open(output_file, 'w') as output:
-# 			splitLength = len(row_to_hide)
-# 			numberResults = 0
-# 			# Check each line in the file to see if the row is the row we want to remove
-# 			for line in input:
-# 				# Cut the line at the length of our input
-# 				if line[:splitLength] != row_to_hide:
-# 					output.write(line) # If it is NOT the row we're looking to remove, then write the current line to the output file, essentially rebuilding the original file
-# 				else:
-# 					numberResults = numberResults + 1 # If it IS the row we're looking for, increase the counter so we know we've found some hits
-# 			# If the counter is 0, that shows us there wasn't any results
-# 			if (numberResults == 0):
-# 				print('\n\n-----------------\n***ERROR: That pattern was not found in this file! Did you spell it correctly?***\n-----------------\n\n')
-# 				main()
-
 def getFileName():
     global input_file
     global output_file
